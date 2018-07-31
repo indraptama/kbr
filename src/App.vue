@@ -1,17 +1,19 @@
 <template lang="pug">
   #app
     <MainHeader />
-    h1.fira {{msg}}
+    <Home />
 </template>
 
 <script>
 
 import MainHeader from "./Components/MainHeader.vue";
+import Home from './Views/Home.vue';
 
 export default {
   name: 'app',
   components: {
-    MainHeader
+    MainHeader,
+    Home
   },
   data () {
     return {

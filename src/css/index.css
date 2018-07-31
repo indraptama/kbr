@@ -1,11 +1,17 @@
 @tailwind preflight;
 @tailwind components;
 @tailwind utilities;
-
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans+Condensed:400,600|Open+Sans:400,400i');
+
+
+@import './aspect-ratio.css';
+
+
+
 html {
   font-size: 87.5%;
   font-family: 'Open Sans', sans-serif;
+  background-color: #fff;
 }
 
 .fira {
@@ -13,10 +19,20 @@ html {
   /* font-weight: 600; */
 }
 
-.MainHeader {
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-weight: 600;
+}
+
+
+.bg-primary {
+  background-color: #fd0304;
+}
+
+.MainHeadera {
   background-color: #fd0304;
 }
 
 .MainNav> *:last-child {
-  border-right: 1px solid #dae1e7;
+  /* border-right: 1px solid #dae1e7; */
 }
