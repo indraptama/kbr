@@ -103,7 +103,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   // Override the current require with this new one
   return newRequire;
-})({"..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\src\\builtins\\bundle-url.js":[function(require,module,exports) {
+})({"C:\\Users\\higen\\AppData\\Roaming\\nvm\\v9.8.0\\node_modules\\parcel-bundler\\src\\builtins\\bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 function getBundleURLCached() {
   if (!bundleURL) {
@@ -133,7 +133,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],"..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\src\\builtins\\css-loader.js":[function(require,module,exports) {
+},{}],"C:\\Users\\higen\\AppData\\Roaming\\nvm\\v9.8.0\\node_modules\\parcel-bundler\\src\\builtins\\css-loader.js":[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -164,17 +164,22 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\src\\builtins\\bundle-url.js"}],"src\\css\\aspect-ratio.css":[function(require,module,exports) {
+},{"./bundle-url":"C:\\Users\\higen\\AppData\\Roaming\\nvm\\v9.8.0\\node_modules\\parcel-bundler\\src\\builtins\\bundle-url.js"}],"src\\css\\aspect-ratio.css":[function(require,module,exports) {
 
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\src\\builtins\\css-loader.js"}],"src\\css\\index.css":[function(require,module,exports) {
+},{"_css_loader":"C:\\Users\\higen\\AppData\\Roaming\\nvm\\v9.8.0\\node_modules\\parcel-bundler\\src\\builtins\\css-loader.js"}],"src\\css\\hack.css":[function(require,module,exports) {
 
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./aspect-ratio.css":"src\\css\\aspect-ratio.css","_css_loader":"..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\src\\builtins\\css-loader.js"}],"..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\src\\builtins\\hmr-runtime.js":[function(require,module,exports) {
+},{"_css_loader":"C:\\Users\\higen\\AppData\\Roaming\\nvm\\v9.8.0\\node_modules\\parcel-bundler\\src\\builtins\\css-loader.js"}],"src\\css\\index.css":[function(require,module,exports) {
+
+var reloadCSS = require('_css_loader');
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"./aspect-ratio.css":"src\\css\\aspect-ratio.css","./hack.css":"src\\css\\hack.css","_css_loader":"C:\\Users\\higen\\AppData\\Roaming\\nvm\\v9.8.0\\node_modules\\parcel-bundler\\src\\builtins\\css-loader.js"}],"C:\\Users\\higen\\AppData\\Roaming\\nvm\\v9.8.0\\node_modules\\parcel-bundler\\src\\builtins\\hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -203,7 +208,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '55542' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '58943' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -344,4 +349,4 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}]},{},["..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\src\\builtins\\hmr-runtime.js"], null)
+},{}]},{},["C:\\Users\\higen\\AppData\\Roaming\\nvm\\v9.8.0\\node_modules\\parcel-bundler\\src\\builtins\\hmr-runtime.js"], null)

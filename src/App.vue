@@ -1,7 +1,7 @@
 <template lang="pug">
   #app
     <MainHeader />
-    <Home />
+    <router-view />
 </template>
 
 <script>

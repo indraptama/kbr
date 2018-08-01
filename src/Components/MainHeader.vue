@@ -1,17 +1,22 @@
 <template lang="pug">
   div
     header(class="MainHeader")
-      nav(class="mx-auto flex items-center justify-end bg-white px-4 bg-primary")
+      nav(class="mx-auto flex items-center justify-end px-4 bg-primary")
         a(href="#" class="inline-block py-2 px-4 no-underline text-white hover:text-black uppercase text-sm fira font-normal") About Us
         a(href="#" class="inline-block py-2 px-4 no-underline text-white hover:text-black uppercase text-sm fira font-normal") Pedoman Media Siber
         a(href="#" class="inline-block py-2 px-4 no-underline text-white hover:text-black uppercase text-sm fira font-normal") Jaringan
         a(href="#" class="inline-block py-2 px-4 no-underline text-white hover:text-black uppercase text-sm fira font-normal") Contact Us
         a(href="#" class="inline-block py-2 px-4 no-underline text-white hover:text-black uppercase text-sm fira font-normal") Kbr Pagi
-      div(class="max-w-3xl mx-auto px-4 flex item-center justify-center py-2")
-        div(class="logo")
-          img(src="../Assets/logo.png" class="block w-32")
+      
+      div(class="max-w-3xl mx-auto px-4 lg:px-0 flex items-center justify-between")
+        div
+          <router-link to='/'>
+            img(src="../Assets/logo.png" class="block w-32")
+        div
+          img(src="../Assets/ads-long.png" class="block")
+      
       nav(class="MainNav mx-auto flex items-center justify-center border-t border-b bg-white px-4")
-        a(href="#" class="inline-block py-2 px-4 no-underline text-grey-dark hover:text-black uppercase xl:text-lg fira font-normal") Berita
+        <router-link to="/news" class="inline-block py-2 px-4 no-underline text-grey-dark hover:text-black uppercase xl:text-lg fira font-normal"> Berita </router-link>
         a(href="#" class="inline-block py-2 px-4 no-underline border-l text-grey-dark hover:text-black uppercase xl:text-lg fira font-normal") Saga
         a(href="#" class="inline-block py-2 px-4 no-underline border-l text-grey-dark hover:text-black uppercase xl:text-lg fira font-normal") Indonesia 2019
         a(href="#" class="inline-block py-2 px-4 no-underline border-l text-grey-dark hover:text-black uppercase xl:text-lg fira font-normal") Asia Calling

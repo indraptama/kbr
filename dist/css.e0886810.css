@@ -22,6 +22,52 @@
 .Ratio--1x1:before {
   padding-top: 100%;
 }
+html {
+  font-size: 87.5%;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fff;
+}
+
+.fira {
+  font-family: 'Fira Sans Condensed', sans-serif;
+  /* font-weight: 600; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-weight: 600;
+}
+
+.bg-primary {
+  background-color: #fd0304;
+}
+
+.MainHeadera {
+  background-color: #fd0304;
+}
+
+.topHighlight > li:nth-child(2) {
+  margin: 0 1.5rem;
+}
+
+.ads300x600 {
+  width: 100%;
+  max-width: 300px;
+  height: 250px;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.MainNav> *:last-child {
+  /* border-right: 1px solid #dae1e7; */
+}
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -6270,39 +6316,6 @@ table {
 
 .z-auto {
   z-index: auto;
-}
-
-html {
-  font-size: 87.5%;
-  font-family: 'Open Sans', sans-serif;
-  background-color: #fff;
-}
-
-.fira {
-  font-family: 'Fira Sans Condensed', sans-serif;
-  /* font-weight: 600; */
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Fira Sans Condensed', sans-serif;
-  font-weight: 600;
-}
-
-.bg-primary {
-  background-color: #fd0304;
-}
-
-.MainHeadera {
-  background-color: #fd0304;
-}
-
-.MainNav> *:last-child {
-  /* border-right: 1px solid #dae1e7; */
 }
 
 @media (min-width: 576px) {

@@ -1,5 +1,5 @@
 <template lang="pug">
-  div(class="bg-white py-4 mb-8 border-b")
+  div(class="bg-white py-12 border-b")
     // Top Card
     div(class="flex justify-between mb-4 px-4")
       div(class="text-xs")
