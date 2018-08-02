@@ -55,6 +55,7 @@ h6 {
   margin: 0 1.5rem;
 }
 
+.ads300x250,
 .ads300x600 {
   width: 100%;
   max-width: 300px;
@@ -63,6 +64,11 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: white;
+}
+
+.ads300x600 {
+  height: 600px;
 }
 
 .MainNav> *:last-child {

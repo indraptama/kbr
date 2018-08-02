@@ -1,5 +1,6 @@
 <template lang="pug">
   div(class="bg-white py-12 border-b")
+    
     // Top Card
     div(class="flex justify-between mb-4 px-4")
       div(class="text-xs")
@@ -13,21 +14,22 @@
           li S
           li M
           li Q
+   
     // Card Title
     div(class="mb-4 px-4")
-      h3(class="text-3xl mb-4 font-medium") Ini Test Berita Nasional atuh
-      h4(class="text-normal text-grey font-light") 28 Juli 2018,  14:30 WIB
+      h3(class="text-3xl mb-4 font-base leading-tight") {{title}}
+      h4(class="text-normal text-grey-darkest font-light") {{date}}
 
     // Card Image
     div(class="mb-4 px-4")
-      a(href="block no-underline")
+      a(class="block no-underline" href="#")
         div(class="Ratio")
           div(class="RatioContent bg-cover bg-center" :style="{ backgroundImage: 'url(' + imgUrl + ')' }")
     
     // Card COntent
     div(class="")
       div(class=" w-4/5 leading-normal px-4")
-        p KPU menyatakan siap melangsungkan pemungutan suara ulang di 10 provinsi sesuai rekomendasi Bawaslu.
+        p {{preview}}
     
 
 </template>
@@ -39,7 +41,9 @@ export default {
    props: {
     title: String,
     imgUrl: String,
-    linkUrl: String
+    linkUrl: String,
+    date: String,
+    preview: String,
   }
 }
 </script>

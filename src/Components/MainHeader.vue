@@ -8,7 +8,7 @@
         a(href="#" class="inline-block py-2 px-4 no-underline text-white hover:text-black uppercase text-sm fira font-normal") Contact Us
         a(href="#" class="inline-block py-2 px-4 no-underline text-white hover:text-black uppercase text-sm fira font-normal") Kbr Pagi
       
-      div(class="max-w-3xl mx-auto px-4 lg:px-0 flex items-center justify-between")
+      div(class="max-w-4xl mx-auto px-4 lg:px-0 flex items-center justify-between")
         div
           <router-link to='/'>
             img(src="../Assets/logo.png" class="block w-32")

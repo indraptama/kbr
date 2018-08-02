@@ -11,6 +11,7 @@
   "devDependencies": {
     "@vue/component-compiler-utils": "^2.1.0",
     "autoprefixer": "^9.0.2",
+    "axios": "^0.18.0",
     "babel-core": "^6.26.3",
     "postcss-import": "^11.1.0",
     "pug": "^2.0.3",
