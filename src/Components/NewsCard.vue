@@ -2,18 +2,21 @@
   div(class="bg-white py-12 border-b")
     
     // Top Card
-    div(class="flex justify-between mb-4 px-4")
+    div(class="flex justify-between items-center mb-4 px-4")
       div(class="text-xs")
         ul(class="list-reset flex flex-wrap")
           li(class="mr-2")
-            span(class="inline-block py-1 px-3 rounded-full bg-grey text-white") Olah Raga
+            span(class="inline-block py-1 px-3 rounded bg-red text-white") Olah Raga
           li(class="mr-2")
-            span(class="inline-block py-1 px-3 rounded-full bg-grey text-white") Nasional
+            span(class="inline-block py-1 px-3 rounded bg-red text-white") Internasional
       div(cLass="flex items-center")
-        ul(class="list-reset flex")
-          li S
-          li M
-          li Q
+        ul(class="list-reset flex text-2xl text-grey")
+          li(class="mr-4")
+            i(class="icon icon-share")
+          li(class="mr-4")
+            i(class="icon icon-favorite_border")
+          li
+            i(class="icon icon-turned_in_not")
    
     // Card Title
     div(class="mb-4 px-4")

@@ -4,6 +4,8 @@
 
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans+Condensed:400,600|Open+Sans:400,400i');
 
+@import '../Assets/icomoon.css';
 @import './aspect-ratio.css';
 @import './hack.css';
+
 
