@@ -6,7 +6,16 @@
         a(href="#" class="inline-block py-2 px-4 no-underline text-white hover:text-black uppercase text-sm fira font-normal") Pedoman Media Siber
         a(href="#" class="inline-block py-2 px-4 no-underline text-white hover:text-black uppercase text-sm fira font-normal") Jaringan
         a(href="#" class="inline-block py-2 px-4 no-underline text-white hover:text-black uppercase text-sm fira font-normal") Contact Us
-        a(href="#" class="inline-block py-2 px-4 no-underline text-white hover:text-black uppercase text-sm fira font-normal") Kbr Pagi
+        a(href="#" class="inline-block py-2 px-4 no-underline text-white hover:text-black uppercase text-sm fira font-normal")
+          i(class="icon icon-soundcloud")
+        a(href="#" class="inline-block py-2 px-3 no-underline text-white hover:text-black uppercase text-sm fira font-normal")
+          i(class="icon icon-facebook")
+        a(href="#" class="inline-block py-2 px-3 no-underline text-white hover:text-black uppercase text-sm fira font-normal")
+          i(class="icon icon-twitter")
+        a(href="#" class="inline-block py-2 px-3 no-underline text-white hover:text-black uppercase text-sm fira font-normal")
+          i(class="icon icon-instagram")
+        a(href="#" class="inline-block py-2 px-3 no-underline text-white hover:text-black uppercase text-sm fira font-normal")
+          i(class="icon icon-youtube")
       
       div(class="max-w-4xl mx-auto px-4 lg:px-0 flex items-center justify-between")
         div
@@ -18,7 +27,7 @@
       nav(class="MainNav mx-auto flex items-center justify-center border-t border-b bg-white px-4")
         <router-link to="/news" class="inline-block py-2 px-4 no-underline text-grey-dark hover:text-black uppercase xl:text-lg fira font-normal"> Berita </router-link>
         a(href="#" class="inline-block py-2 px-4 no-underline border-l text-grey-dark hover:text-black uppercase xl:text-lg fira font-normal") Saga
-        a(href="#" class="inline-block py-2 px-4 no-underline border-l text-grey-dark hover:text-black uppercase xl:text-lg fira font-normal") Indonesia 2019
+        a(href="#" class="inline-block py-2 px-4 no-underline border-l text-grey-dark hover:text-black uppercase xl:text-lg fira font-normal") Ind<span class="text-red font-normal">one</span>sia 2019
         a(href="#" class="inline-block py-2 px-4 no-underline border-l text-grey-dark hover:text-black uppercase xl:text-lg fira font-normal") Asia Calling
         a(href="#" class="inline-block py-2 px-4 no-underline border-l text-grey-dark hover:text-black uppercase xl:text-lg fira font-normal") Kbr Prime
         a(href="#" class="inline-block py-2 px-4 no-underline border-l text-grey-dark hover:text-black uppercase xl:text-lg fira font-normal") Ruang Publik

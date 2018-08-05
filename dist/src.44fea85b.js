@@ -10116,6 +10116,15 @@ Object.defineProperty(exports, "__esModule", {
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 exports.default = {
@@ -10186,15 +10195,7 @@ exports.default = {
             },
             [_vm._v("Saga")]
           ),
-          _c(
-            "a",
-            {
-              staticClass:
-                "inline-block py-2 px-4 no-underline border-l text-grey-dark hover:text-black uppercase xl:text-lg fira font-normal",
-              attrs: { href: "#" }
-            },
-            [_vm._v("Indonesia 2019")]
-          ),
+          _vm._m(2),
           _c(
             "a",
             {
@@ -10316,7 +10317,43 @@ var staticRenderFns = [
               "inline-block py-2 px-4 no-underline text-white hover:text-black uppercase text-sm fira font-normal",
             attrs: { href: "#" }
           },
-          [_vm._v("Kbr Pagi")]
+          [_c("i", { staticClass: "icon icon-soundcloud" })]
+        ),
+        _c(
+          "a",
+          {
+            staticClass:
+              "inline-block py-2 px-3 no-underline text-white hover:text-black uppercase text-sm fira font-normal",
+            attrs: { href: "#" }
+          },
+          [_c("i", { staticClass: "icon icon-facebook" })]
+        ),
+        _c(
+          "a",
+          {
+            staticClass:
+              "inline-block py-2 px-3 no-underline text-white hover:text-black uppercase text-sm fira font-normal",
+            attrs: { href: "#" }
+          },
+          [_c("i", { staticClass: "icon icon-twitter" })]
+        ),
+        _c(
+          "a",
+          {
+            staticClass:
+              "inline-block py-2 px-3 no-underline text-white hover:text-black uppercase text-sm fira font-normal",
+            attrs: { href: "#" }
+          },
+          [_c("i", { staticClass: "icon icon-instagram" })]
+        ),
+        _c(
+          "a",
+          {
+            staticClass:
+              "inline-block py-2 px-3 no-underline text-white hover:text-black uppercase text-sm fira font-normal",
+            attrs: { href: "#" }
+          },
+          [_c("i", { staticClass: "icon icon-youtube" })]
         )
       ]
     )
@@ -10331,6 +10368,24 @@ var staticRenderFns = [
         attrs: { src: "/ads-long.27f5f324.png" }
       })
     ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "a",
+      {
+        staticClass:
+          "inline-block py-2 px-4 no-underline border-l text-grey-dark hover:text-black uppercase xl:text-lg fira font-normal",
+        attrs: { href: "#" }
+      },
+      [
+        _vm._v("Ind"),
+        _c("span", { staticClass: "text-red font-normal" }, [_vm._v("one")]),
+        _vm._v("sia 2019")
+      ]
+    )
   }
 ]
 render._withStripped = true
@@ -29363,6 +29418,9 @@ Object.defineProperty(exports, "__esModule", {
 //
 //
 //
+//
+//
+//
 
 
 exports.default = {
@@ -29400,16 +29458,25 @@ exports.default = {
       ])
     ]),
     _vm._v(" "),
-    _c("div", { staticClass: "mb-4 px-4" }, [
-      _c("a", { staticClass: "block no-underline", attrs: { href: "#" } }, [
-        _c("div", { staticClass: "Ratio" }, [
-          _c("div", {
-            staticClass: "RatioContent bg-cover bg-center",
-            style: { backgroundImage: "url(" + _vm.imgUrl + ")" }
-          })
-        ])
-      ])
-    ]),
+    _c(
+      "div",
+      { staticClass: "mb-4 px-4" },
+      [
+        _c(
+          "router-link",
+          { staticClass: "block no-underline", attrs: { to: "/news-single" } },
+          [
+            _c("div", { staticClass: "Ratio" }, [
+              _c("div", {
+                staticClass: "RatioContent bg-cover bg-center",
+                style: { backgroundImage: "url(" + _vm.imgUrl + ")" }
+              })
+            ])
+          ]
+        )
+      ],
+      1
+    ),
     _vm._v(" "),
     _c("div", [
       _c("div", { staticClass: " w-4/5 leading-normal px-4" }, [
@@ -29423,43 +29490,51 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "flex justify-between mb-4 px-4" }, [
-      _c("div", { staticClass: "text-xs" }, [
-        _c("ul", { staticClass: "list-reset flex flex-wrap" }, [
-          _c("li", { staticClass: "mr-2" }, [
-            _c(
-              "span",
-              {
-                staticClass:
-                  "inline-block py-1 px-3 rounded-full bg-grey text-white"
-              },
-              [_vm._v("Olah Raga")]
-            )
-          ]),
-          _vm._v(" "),
-          _c("li", { staticClass: "mr-2" }, [
-            _c(
-              "span",
-              {
-                staticClass:
-                  "inline-block py-1 px-3 rounded-full bg-grey text-white"
-              },
-              [_vm._v("Nasional")]
-            )
+    return _c(
+      "div",
+      { staticClass: "flex justify-between items-center mb-4 px-4" },
+      [
+        _c("div", { staticClass: "text-xs" }, [
+          _c("ul", { staticClass: "list-reset flex flex-wrap" }, [
+            _c("li", { staticClass: "mr-2" }, [
+              _c(
+                "span",
+                {
+                  staticClass:
+                    "inline-block py-1 px-3 rounded bg-red text-white"
+                },
+                [_vm._v("Olah Raga")]
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "mr-2" }, [
+              _c(
+                "span",
+                {
+                  staticClass:
+                    "inline-block py-1 px-3 rounded bg-red text-white"
+                },
+                [_vm._v("Internasional")]
+              )
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { attrs: { cLass: "flex items-center" } }, [
+          _c("ul", { staticClass: "list-reset flex text-2xl text-grey" }, [
+            _c("li", { staticClass: "mr-4" }, [
+              _c("i", { staticClass: "icon icon-share" })
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "mr-4" }, [
+              _c("i", { staticClass: "icon icon-favorite_border" })
+            ]),
+            _vm._v(" "),
+            _c("li", [_c("i", { staticClass: "icon icon-turned_in_not" })])
           ])
         ])
-      ]),
-      _vm._v(" "),
-      _c("div", { attrs: { cLass: "flex items-center" } }, [
-        _c("ul", { staticClass: "list-reset flex" }, [
-          _c("li", [_vm._v("S")]),
-          _vm._v(" "),
-          _c("li", [_vm._v("M")]),
-          _vm._v(" "),
-          _c("li", [_vm._v("Q")])
-        ])
-      ])
-    ])
+      ]
+    )
   }
 ]
 render._withStripped = true
@@ -29854,7 +29929,7 @@ exports.default = {
               staticClass:
                 "text-base mb-4 uppercase tracking-wide text-white text-center bg-primary p-2"
             },
-            [_vm._v("Radios")]
+            [_vm._v("Podcast")]
           ),
           _vm._v(" "),
           _c(
@@ -30214,7 +30289,7 @@ exports.default = {
               staticClass:
                 "text-base mb-4 uppercase tracking-wide text-white text-center bg-primary p-2"
             },
-            [_vm._v("Radios")]
+            [_vm._v("Podcast")]
           ),
           _vm._v(" "),
           _c(
@@ -30315,6 +30390,423 @@ render._withStripped = true
         
       }
     })();
+},{"axios":"node_modules\\axios\\index.js","../Components/TopHighlights.vue":"src\\Components\\TopHighlights.vue","../Components/NewsCard.vue":"src\\Components\\NewsCard.vue","../Components/NewsListSmall.vue":"src\\Components\\NewsListSmall.vue","vue-hot-reload-api":"node_modules\\vue-hot-reload-api\\dist\\index.js","vue":"node_modules\\vue\\dist\\vue.runtime.esm.js"}],"src\\Views\\NewsSingle.vue":[function(require,module,exports) {
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _axios = require('axios');
+
+var _axios2 = _interopRequireDefault(_axios);
+
+var _TopHighlights = require('../Components/TopHighlights.vue');
+
+var _TopHighlights2 = _interopRequireDefault(_TopHighlights);
+
+var _NewsCard = require('../Components/NewsCard.vue');
+
+var _NewsCard2 = _interopRequireDefault(_NewsCard);
+
+var _NewsListSmall = require('../Components/NewsListSmall.vue');
+
+var _NewsListSmall2 = _interopRequireDefault(_NewsListSmall);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+exports.default = {
+  name: 'NewsSingle',
+  components: {
+    TopHighlights: _TopHighlights2.default,
+    NewsListSmall: _NewsListSmall2.default
+  },
+
+  data: function data() {
+    return {
+      news: null,
+
+      radios: [{
+        title: 'Menghukum Anak = Mendidik Anak?',
+        img: 'https://i1.sndcdn.com/artworks-000237224448-vimodn-t500x500.jpg'
+      }, {
+        title: 'Stand Up Speak Up - Melawan Rokok',
+        img: 'https://i1.sndcdn.com/artworks-000237860498-916i9x-t200x200.jpg'
+      }, {
+        title: 'Miss KBR - Ke Mana Muara Kasus Novel',
+        img: 'https://i1.sndcdn.com/artworks-000316993992-g4zq01-t200x200.jpg'
+      }, {
+        title: 'Miss KBR - Indonesia jadi tuan rumah piala dunia 2022',
+        img: 'https://i1.sndcdn.com/artworks-000316993992-g4zq01-t200x200.jpg'
+      }, {
+        title: 'Sains sekitar kita - Vol.1 Jatuh Cinta',
+        img: 'https://i1.sndcdn.com/artworks-000316993653-ox8c1h-t200x200.jpg'
+      }, {
+        title: 'Volume 20: Gangguan Tidur dan Dampak yang Ditimbulkan',
+        img: 'https://i1.sndcdn.com/artworks-000380060493-nwux6w-t200x200.jpg'
+      }],
+
+      tops: [{
+        name: 'Gunakan Helikopter, Tim SAR Evakuasi Jenazah Pendaki Korban Gempa di Gunung Rinjani',
+        imgUrl: "https://source.unsplash.com/480x320/?plane",
+        linkUrl: "#"
+      }, {
+        name: 'Divonis Organisasi Terlarang, Jamaah Ansharut Daulah Enggan Banding',
+        imgUrl: "https://source.unsplash.com/480x320/?court",
+        linkUrl: "#"
+      }, {
+        name: 'Vonis Anak Korban Perkosaan di Jambi, Hakim Dilaporkan ke KY',
+        imgUrl: "https://source.unsplash.com/480x320/?girl",
+        linkUrl: "#"
+      }],
+
+      popular: [{
+        name: 'Bawaslu Rekomendasikan Pemungutan Suara Ulang, KPU: Logistik 91 TPS Sudah Siap',
+        imgUrl: "https://source.unsplash.com/128x128/?people,nature",
+        linkUrl: "#",
+        rank: '1'
+      }, {
+        name: 'Bawaslu Jateng Temukan Pelanggaran Pilkada di 15 Kabupaten/Kota',
+        imgUrl: "https://source.unsplash.com/128x128/?car",
+        linkUrl: "#",
+        rank: '2'
+      }, {
+        name: 'Tersangka KPK Memenangi Pilkada, Kemendagri: Tunggu Hasil Resmi KPU',
+        imgUrl: "https://source.unsplash.com/128x128/?politics",
+        linkUrl: "#",
+        rank: '3'
+      }, {
+        name: 'Ini Alasan BPBD Banyuwangi Minta Perpanjang Status Tanggap Darurat Banjir Bandang',
+        imgUrl: "https://source.unsplash.com/128x128/?race",
+        linkUrl: "#",
+        rank: '4'
+      }, {
+        name: 'Setahun Terakhir, Kontras Catat Polisi dan TNI Jadi Pelaku Terbanyak Kasus Penyiksaan',
+        imgUrl: "https://source.unsplash.com/128x128/?art",
+        linkUrl: "#",
+        rank: '5'
+      }]
+    };
+  }
+};
+        var $ae762c = exports.default || module.exports;
+      
+      if (typeof $ae762c === 'function') {
+        $ae762c = $ae762c.options;
+      }
+    
+        /* template */
+        Object.assign($ae762c, (function () {
+          var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", [
+    _c("div", { staticClass: "px-4" }, [
+      _c(
+        "div",
+        { staticClass: "flex flex-row-reverse w-full max-w-4xl mx-auto" },
+        [
+          _c("div", { staticClass: "pl-4 w-1/4 pt-4" }, [
+            _vm._m(0),
+            _vm._v(" "),
+            _c(
+              "h2",
+              {
+                staticClass:
+                  "text-base mb-4 uppercase tracking-wide text-white text-center bg-primary p-2"
+              },
+              [_vm._v("Trendings")]
+            ),
+            _vm._v(" "),
+            _c(
+              "ul",
+              { staticClass: "list-reset mb-4" },
+              _vm._l(_vm.popular, function(pop) {
+                return _c(
+                  "li",
+                  { staticClass: "mb-2 pb-2 border-b" },
+                  [
+                    _c("NewsListSmall", {
+                      attrs: {
+                        title: pop.name,
+                        imgUrl: pop.imgUrl,
+                        rank: pop.rank
+                      }
+                    })
+                  ],
+                  1
+                )
+              })
+            ),
+            _vm._v(" "),
+            _c(
+              "h2",
+              {
+                staticClass:
+                  "text-base mb-4 uppercase tracking-wide text-white text-center bg-primary p-2"
+              },
+              [_vm._v("Podcast")]
+            ),
+            _vm._v(" "),
+            _c(
+              "ul",
+              { staticClass: "list-reset mb-4" },
+              _vm._l(_vm.radios, function(radio) {
+                return _c(
+                  "li",
+                  { staticClass: "mb-2 pb-2 border-b" },
+                  [
+                    _c("NewsListSmall", {
+                      attrs: {
+                        title: radio.title,
+                        imgUrl: radio.img,
+                        rank: radio.rank
+                      }
+                    })
+                  ],
+                  1
+                )
+              })
+            )
+          ]),
+          _vm._v(" "),
+          _vm._m(1)
+        ]
+      )
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "bg-blue ads300x250 mb-4" }, [
+      _c("h2", [_vm._v("ADS 300x250")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: " w-3/4 border-r pt-16" }, [
+      _c("div", { staticClass: "leading-normal mb-4" }, [
+        _c("h1", { staticClass: "text-5xl leading-tight font-medium" }, [
+          _vm._v("Bertemu Luhut, IMF Yakin Bali Aman untuk Annual Meeting")
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "flex mb-8" }, [
+        _c("div", { staticClass: "flex items-center" }, [
+          _c("div", { staticClass: "rounded-full w-8 bg-red h-8" }),
+          _vm._v(" "),
+          _c("div", { staticClass: "px-4 mr-4 border-r" }, [
+            _c("h5", { staticClass: "font-normal text-grey-darker text-lg" }, [
+              _vm._v("Rio Tuasikal")
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", [
+            _c("h5", { staticClass: "font-normal text-grey-darker text-lg" }, [
+              _vm._v("Jumat, 03 Agus 2018 16:02 WIB")
+            ])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "w-full mb-8" }, [
+        _c("div", { staticClass: "Ratio Ratio--16x9 mb-4" }, [
+          _c("div", {
+            staticClass: "RatioContent bg-center bg-cover bg-red",
+            staticStyle: {
+              "background-image":
+                "url('https://source.unsplash.com/800x600/?bali')"
+            }
+          })
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "w-3/4 leading-normal text-2xl" }, [
+          _c("p", [
+            _vm._v(
+              "International Monetary Fund (IMF) tidak khawatir masalah keamanan dalam pertemuan tahunan IMF dan Bank Dunia (World Bank) Oktober mendatang."
+            )
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "mx-auto flex" }, [
+        _c("div", { staticClass: "w-1/4 mr-4" }, [
+          _c("h4", { staticClass: "text-lg mb-4" }, [
+            _vm._v("Artikel Terkait")
+          ]),
+          _vm._v(" "),
+          _c("ul", { staticClass: "list-reset mb-4" }, [
+            _c("li", { staticClass: "py-3 border-b font-medium" }, [
+              _vm._v("Persiapan Rapat Tahunan IMF-Bank Dunia Sudah 85 Persen")
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "py-3 border-b font-medium" }, [
+              _vm._v(
+                "Lawan PSMS, Dua Pemain Naturalisasi Indonesia Milik Bali United Absen"
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "py-3 border-b font-medium" }, [
+              _vm._v(
+                "Sediakan Hadiah Sepeda, Pegawai KPK Sindir Jokowi soal Kasus Novel?"
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "py-3 border-b font-medium" }, [
+              _vm._v("Energi Tambahan itu Bernama Novel")
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "py-3 border-b font-medium" }, [
+              _vm._v("DPRD Balikpapan Godok Perda Khusus untuk Korban Longsor")
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "ads300x600" }, [
+            _c("h2", [_vm._v("ADS 300x600")])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "w-3/4" }, [
+          _c(
+            "div",
+            { staticClass: "article max-w-md mx-auto text-lg leading-normal" },
+            [
+              _c("p", [
+                _vm._v(
+                  "KBR, Jakarta- International Monetary Fund (IMF) percaya Bali aman untuk pertemuan tahunan antara IMF dan Bank Dunia (World Bank) Oktober mendatang. Sekretaris Jenderal IMF Lin Jianhai mengatakan, hal itu terlihat dari persiapan-persiapan yang telah dilakukan pemerintah Indonesia di mana Menteri Koordinator Maritim Luhut Pandjaitan bertindak sebagai Ketua Panitia Nasional. Kata dia, IMF tidak khawatir masalah keamanan."
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  '"Saya sangat yakin kita akan menggelar pertemuan yang sangat sukses, lancar, dan membuahkan hasil pada Oktober," terang Lin usai mengikuti rapat persiapan di gedung Kemenko Maritim, Jumat, (03/08).'
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "Sebelumnya, Menko Maritim Luhut menyatakan, pihaknya telah menyiapkan seluruh aspek keamanan, dari demonstrasi sampai bencana alam. Terkait demonstrasi, telah disediakan tempat khusus bagi masyarakat atau pun kelompok sipil yang ingin unjuk rasa. Sementara terkait bencana alam, petugas telah menyiapkan berbagai antisipasi. Menurutnya, para ahli gunung berapi memprediksi Gunung Agung tidak akan erupsi selama dua hari perhelatan berlangsung."
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  '"Polda Bali sudah menyiapkan segala kontigensinya. Tinggal berdoa (Gunung Agung tidak meletus), merencanakan dengan baik," jelas Luhut.'
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "Pertemuan Tahunan IMF-Bank Dunia akan membahas isu keuangan dan pembangunan ekonomi se-dunia, termasuk prospek ekonomi, penghapusan kelaparan, dan dana bantuan. Indonesia ditunjuk menjadi tuan rumah untuk rapat yang digelar pada 12-14 Oktober 2018. Indonesia akan akan menerima 15 ribu orang, termasuk 3.500 delegasi dari 189 negara anggota. Tahun lalu, rapat tahunan tersebut digelar di Washington, DC, Amerika Serikat."
+                )
+              ])
+            ]
+          )
+        ])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+          return {
+            render: render,
+            staticRenderFns: staticRenderFns,
+            _compiled: true,
+            _scopeId: null,
+            functional: undefined
+          };
+        })());
+      
+    /* hot reload */
+    (function () {
+      if (module.hot) {
+        var api = require('vue-hot-reload-api');
+        api.install(require('vue'));
+        if (api.compatible) {
+          module.hot.accept();
+          if (!module.hot.data) {
+            api.createRecord('$ae762c', $ae762c);
+          } else {
+            api.reload('$ae762c', $ae762c);
+          }
+        }
+
+        
+      }
+    })();
 },{"axios":"node_modules\\axios\\index.js","../Components/TopHighlights.vue":"src\\Components\\TopHighlights.vue","../Components/NewsCard.vue":"src\\Components\\NewsCard.vue","../Components/NewsListSmall.vue":"src\\Components\\NewsListSmall.vue","vue-hot-reload-api":"node_modules\\vue-hot-reload-api\\dist\\index.js","vue":"node_modules\\vue\\dist\\vue.runtime.esm.js"}],"src\\index.js":[function(require,module,exports) {
 'use strict';
 
@@ -30338,12 +30830,18 @@ var _News = require('./Views/News.vue');
 
 var _News2 = _interopRequireDefault(_News);
 
+var _NewsSingle = require('./Views/NewsSingle.vue');
+
+var _NewsSingle2 = _interopRequireDefault(_NewsSingle);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-// Routes
 _vue2.default.use(_vueRouter2.default);
 
-var routes = [{ path: '/', component: _Home2.default }, { path: '/news', component: _News2.default }];
+// Routes
+
+
+var routes = [{ path: '/', component: _Home2.default }, { path: '/news', component: _News2.default }, { path: '/news-single', component: _NewsSingle2.default }];
 
 var router = new _vueRouter2.default({
   routes: routes
@@ -30357,7 +30855,7 @@ new _vue2.default({
   }
 
 });
-},{"vue":"node_modules\\vue\\dist\\vue.runtime.esm.js","vue-router":"node_modules\\vue-router\\dist\\vue-router.esm.js","./App.vue":"src\\App.vue","./Views/Home.vue":"src\\Views\\Home.vue","./Views/News.vue":"src\\Views\\News.vue"}],"C:\\Users\\higen\\AppData\\Roaming\\nvm\\v9.8.0\\node_modules\\parcel-bundler\\src\\builtins\\hmr-runtime.js":[function(require,module,exports) {
+},{"vue":"node_modules\\vue\\dist\\vue.runtime.esm.js","vue-router":"node_modules\\vue-router\\dist\\vue-router.esm.js","./App.vue":"src\\App.vue","./Views/Home.vue":"src\\Views\\Home.vue","./Views/News.vue":"src\\Views\\News.vue","./Views/NewsSingle.vue":"src\\Views\\NewsSingle.vue"}],"C:\\Users\\higen\\AppData\\Roaming\\nvm\\v9.8.0\\node_modules\\parcel-bundler\\src\\builtins\\hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -30386,7 +30884,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '53689' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '51345' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 

@@ -17,22 +17,47 @@
           
           
             
-          h2(class="text-base mb-4 uppercase tracking-wide text-white text-center bg-primary p-2") Radios
+          h2(class="text-base mb-4 uppercase tracking-wide text-white text-center bg-primary p-2") Podcast
           ul(class="list-reset mb-4")
             li(v-for='radio in radios' class="mb-2 pb-2 border-b")
               <NewsListSmall :title='radio.title' :imgUrl='radio.img' :rank='radio.rank'/>
-          div(class="ads300x600")
-            h2 ADS 300x600
+          
         
         // Center
-        div(class=" w-3/4 border-r pt-4")
-          div(class="leading-normal")
-            h1.mb-4.text-5xl.leading-tight Why it matters that EA censored Colin Kaepernick's name in a 'Madden NFL 19' song
-          div(class="mx-auto max-w-lg leading-normal flex")
-            div(class="w-1/5 ml-4")
-              p dedededed
-            div(class="w-4/5")
-              p Hollywood has what we like to call dump months. These are the couple of times a year where studios toss the movies they don’t think are going to do well at the box office. January is the biggest one, since no one can afford to do jack after the holidays, but August is the summer dump. Still, we’ve seen some great (and greatly terrible) movies come out of this ghost town of a month, like the upcoming film The Darkest Minds. Here are our picks for August films that clawed their way out of the garbage.
+        div(class=" w-3/4 border-r pt-16")
+          div(class="leading-normal mb-4")
+            h1(class='text-5xl leading-tight font-medium') Bertemu Luhut, IMF Yakin Bali Aman untuk Annual Meeting
+          div(class="flex mb-8")
+            div(class="flex items-center")
+              div(class="rounded-full w-8 bg-red h-8")
+              div(class="px-4 mr-4 border-r")
+                h5(class="font-normal text-grey-darker text-lg") Rio Tuasikal
+              div
+                h5(class="font-normal text-grey-darker text-lg") Jumat, 03 Agus 2018 16:02 WIB
+          div(class="w-full mb-8")
+            div(class="Ratio Ratio--16x9 mb-4")
+              div(class="RatioContent bg-center bg-cover bg-red" style="background-image:url('https://source.unsplash.com/800x600/?bali')")
+            div(class="w-3/4 leading-normal text-2xl")
+              p International Monetary Fund (IMF) tidak khawatir masalah keamanan dalam pertemuan tahunan IMF dan Bank Dunia (World Bank) Oktober mendatang.
+          div(class="mx-auto flex")
+            div(class="w-1/4 mr-4")
+              h4(class="text-lg mb-4") Artikel Terkait
+              ul(class="list-reset mb-4")      
+                li(class="py-3 border-b font-medium") Persiapan Rapat Tahunan IMF-Bank Dunia Sudah 85 Persen
+                li(class="py-3 border-b font-medium") Lawan PSMS, Dua Pemain Naturalisasi Indonesia Milik Bali United Absen
+                li(class="py-3 border-b font-medium") Sediakan Hadiah Sepeda, Pegawai KPK Sindir Jokowi soal Kasus Novel?
+                li(class="py-3 border-b font-medium") Energi Tambahan itu Bernama Novel
+                li(class="py-3 border-b font-medium") DPRD Balikpapan Godok Perda Khusus untuk Korban Longsor
+              div(class="ads300x600")
+                h2 ADS 300x600
+
+            div(class="w-3/4")
+              div(class="article max-w-md mx-auto text-lg leading-normal")
+                p KBR, Jakarta- International Monetary Fund (IMF) percaya Bali aman untuk pertemuan tahunan antara IMF dan Bank Dunia (World Bank) Oktober mendatang. Sekretaris Jenderal IMF Lin Jianhai mengatakan, hal itu terlihat dari persiapan-persiapan yang telah dilakukan pemerintah Indonesia di mana Menteri Koordinator Maritim Luhut Pandjaitan bertindak sebagai Ketua Panitia Nasional. Kata dia, IMF tidak khawatir masalah keamanan.
+                p "Saya sangat yakin kita akan menggelar pertemuan yang sangat sukses, lancar, dan membuahkan hasil pada Oktober," terang Lin usai mengikuti rapat persiapan di gedung Kemenko Maritim, Jumat, (03/08).
+                p Sebelumnya, Menko Maritim Luhut menyatakan, pihaknya telah menyiapkan seluruh aspek keamanan, dari demonstrasi sampai bencana alam. Terkait demonstrasi, telah disediakan tempat khusus bagi masyarakat atau pun kelompok sipil yang ingin unjuk rasa. Sementara terkait bencana alam, petugas telah menyiapkan berbagai antisipasi. Menurutnya, para ahli gunung berapi memprediksi Gunung Agung tidak akan erupsi selama dua hari perhelatan berlangsung.
+                p "Polda Bali sudah menyiapkan segala kontigensinya. Tinggal berdoa (Gunung Agung tidak meletus), merencanakan dengan baik," jelas Luhut.
+                p Pertemuan Tahunan IMF-Bank Dunia akan membahas isu keuangan dan pembangunan ekonomi se-dunia, termasuk prospek ekonomi, penghapusan kelaparan, dan dana bantuan. Indonesia ditunjuk menjadi tuan rumah untuk rapat yang digelar pada 12-14 Oktober 2018. Indonesia akan akan menerima 15 ribu orang, termasuk 3.500 delegasi dari 189 negara anggota. Tahun lalu, rapat tahunan tersebut digelar di Washington, DC, Amerika Serikat.
 
 </template>
 

@@ -25,10 +25,10 @@
 
     // Card Image
     div(class="mb-4 px-4")
-      a(class="block no-underline" href="#")
+      <router-link to="/news-single" class="block no-underline">
         div(class="Ratio")
           div(class="RatioContent bg-cover bg-center" :style="{ backgroundImage: 'url(' + imgUrl + ')' }")
-    
+      </router-link>
     // Card COntent
     div(class="")
       div(class=" w-4/5 leading-normal px-4")

@@ -35,7 +35,7 @@
         
         // Right Side
         div(class="pl-4 w-1/4 pt-4")
-          h2(class="text-base mb-4 uppercase tracking-wide text-white text-center bg-primary p-2") Radios
+          h2(class="text-base mb-4 uppercase tracking-wide text-white text-center bg-primary p-2") Podcast
           ul(class="list-reset mb-4")
             li(v-for='radio in radios' class="mb-2 pb-2 border-b")
               <NewsListSmall :title='radio.title' :imgUrl='radio.img' :rank='radio.rank'/>

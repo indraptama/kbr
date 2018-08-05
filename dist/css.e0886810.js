@@ -164,7 +164,12 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"C:\\Users\\higen\\AppData\\Roaming\\nvm\\v9.8.0\\node_modules\\parcel-bundler\\src\\builtins\\bundle-url.js"}],"src\\css\\aspect-ratio.css":[function(require,module,exports) {
+},{"./bundle-url":"C:\\Users\\higen\\AppData\\Roaming\\nvm\\v9.8.0\\node_modules\\parcel-bundler\\src\\builtins\\bundle-url.js"}],"src\\Assets\\icomoon.css":[function(require,module,exports) {
+
+var reloadCSS = require('_css_loader');
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"./fonts\\icomoon.eot":[["icomoon.dca5d381.eot","src\\Assets\\fonts\\icomoon.eot"],"src\\Assets\\fonts\\icomoon.eot"],"./fonts\\icomoon.ttf":[["icomoon.0d1eef13.ttf","src\\Assets\\fonts\\icomoon.ttf"],"src\\Assets\\fonts\\icomoon.ttf"],"./fonts\\icomoon.woff":[["icomoon.a14babaf.woff","src\\Assets\\fonts\\icomoon.woff"],"src\\Assets\\fonts\\icomoon.woff"],"./fonts\\icomoon.svg":[["icomoon.59d966c8.svg","src\\Assets\\fonts\\icomoon.svg"],"src\\Assets\\fonts\\icomoon.svg"],"_css_loader":"C:\\Users\\higen\\AppData\\Roaming\\nvm\\v9.8.0\\node_modules\\parcel-bundler\\src\\builtins\\css-loader.js"}],"src\\css\\aspect-ratio.css":[function(require,module,exports) {
 
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
@@ -179,7 +184,7 @@ module.hot.accept(reloadCSS);
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./aspect-ratio.css":"src\\css\\aspect-ratio.css","./hack.css":"src\\css\\hack.css","_css_loader":"C:\\Users\\higen\\AppData\\Roaming\\nvm\\v9.8.0\\node_modules\\parcel-bundler\\src\\builtins\\css-loader.js"}],"C:\\Users\\higen\\AppData\\Roaming\\nvm\\v9.8.0\\node_modules\\parcel-bundler\\src\\builtins\\hmr-runtime.js":[function(require,module,exports) {
+},{"../Assets/icomoon.css":"src\\Assets\\icomoon.css","./aspect-ratio.css":"src\\css\\aspect-ratio.css","./hack.css":"src\\css\\hack.css","_css_loader":"C:\\Users\\higen\\AppData\\Roaming\\nvm\\v9.8.0\\node_modules\\parcel-bundler\\src\\builtins\\css-loader.js"}],"C:\\Users\\higen\\AppData\\Roaming\\nvm\\v9.8.0\\node_modules\\parcel-bundler\\src\\builtins\\hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -208,7 +213,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '53689' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '51345' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 

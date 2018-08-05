@@ -5,7 +5,7 @@
     display: block;
     content: "";
     width: 100%;
-    padding-top: 56.25%;
+    padding-top: 65%;
 }
 .Ratio > .RatioContent {
     position: absolute;
@@ -20,4 +20,8 @@
 
 .Ratio--1x1:before {
     padding-top: 100%;
+}
+
+.Ratio--16x9:before {
+    padding-top: 56%;
 } 

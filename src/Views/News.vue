@@ -16,7 +16,7 @@
           div(class="bg-blue ads300x250 mb-8")
             h2 ADS 300x250
             
-          h2(class="text-base mb-4 uppercase tracking-wide text-white text-center bg-primary p-2") Radios
+          h2(class="text-base mb-4 uppercase tracking-wide text-white text-center bg-primary p-2") Podcast
           ul(class="list-reset mb-4")
             li(v-for='radio in radios' class="mb-2 pb-2 border-b")
               <NewsListSmall :title='radio.title' :imgUrl='radio.img' :rank='radio.rank'/>
